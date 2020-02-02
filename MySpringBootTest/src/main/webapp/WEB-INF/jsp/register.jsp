@@ -29,7 +29,7 @@
 <body>
 
 	<div class="container">
-		<form >
+		<form action="/index" method="post">
 
 			<div class="col-md-6 col-md-offset-3">
 				<div class="row">
@@ -37,43 +37,43 @@
 				</div>
 			</div>
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">邮箱</label> <input type="email"
+				<label for="inputEmail">邮箱</label> <input type="email"
 					class="form-control" id="inputEmail" placeholder="Email">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputPassword1">密码</label> <input type="password"
+				<label for="inputPassword">密码</label> <input type="password"
 					class="form-control" id="inputPassword" placeholder="Password">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">用户名</label> <input type="text"
+				<label for="inputAccount">用户名</label> <input type="text"
 					class="form-control" id="inputAccount" placeholder="用户名">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">姓名</label> <input type="text"
+				<label for="inputTrueName">姓名</label> <input type="text"
 					class="form-control" id="inputTrueName" placeholder="姓名">
 			</div>
 
-			<div class="fform-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">性别</label> <input type="text"
-					class="form-control" id="inputSex" placeholder="用户名">
+			<div class="form-group col-md-6 col-md-offset-3">
+				<label for="inputSex">性别</label> <input type="text"
+					class="form-control" id="inputSex" placeholder="性别">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">地址</label> <input type="text"
+				<label for="inputAddress">地址</label> <input type="text"
 					class="form-control" id="inputAddress" placeholder="地址">
 			</div>
 
-			<div class="fform-group col-md-6 col-md-offset-3">
-				<label for="exampleInputEmail1">手机</label> <input type="text"
+			<div class="form-group col-md-6 col-md-offset-3">
+				<label for="inputPhone">手机</label> <input type="text"
 					class="form-control" id="inputPhone" placeholder="手机">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="exampleInputFile">上传图片</label> <input type="file"
-					id="InputFile">
+				<label for="inputFile">上传图片</label> <input type="file"
+					id="inputFile">
 				<p class="help-block">Example block-level help text here.</p>
 			</div>
 

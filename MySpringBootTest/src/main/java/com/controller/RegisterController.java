@@ -13,5 +13,15 @@ public class RegisterController {
 		return "register";
 	}
 	
+	@RequestMapping("/index")
+	public String RegisterSuccess() {
+		return "index";
+	}
+	
+	@RequestMapping("/login")
+	public String Login() {
+		return "login";
+	}
+	
 	
 }
