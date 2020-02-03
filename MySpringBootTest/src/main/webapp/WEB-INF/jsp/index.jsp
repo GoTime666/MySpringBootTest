@@ -27,5 +27,7 @@
 	<h1>首页</h1>
 	<a href="/login" class="btn btn-info" role="button">登录</a>
 	<a href="/register" class="btn btn-info" role="button">注册</a>
+	<br>
+	<a href="/addBook" class="btn btn-info" role="button">添加书籍</a>
 </body>
 </html>

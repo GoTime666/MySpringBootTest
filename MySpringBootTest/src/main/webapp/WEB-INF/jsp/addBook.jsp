@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8;"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>注册</title>
+<title>添加书籍</title>
 <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <link rel="stylesheet"
@@ -29,60 +29,55 @@
 <body>
 
 	<div class="container">
-		<form action="index" method="post">
+		<form  >
+
 			<div class="col-md-6 col-md-offset-3">
 				<div class="row">
-					<h1 align="center">注册</h1>
+					<h1 align="center">添加书籍</h1>
 				</div>
 			</div>
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputEmail">邮箱</label> <input type="email"
-					class="form-control" id="inputEmail" placeholder="Email">
+				<label for="bookName">书名</label> <input type="email"
+					class="form-control" id="bookName" placeholder="书名">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputPassword">密码</label> <input type="password"
-					class="form-control" id="inputPassword" placeholder="Password">
+				<label for="publisher">出版社</label> <input type="password"
+					class="form-control" id="publisher" placeholder="出版社">
 			</div>
 
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputAccount">用户名</label> <input type="text"
-					class="form-control" id="inputAccount" placeholder="用户名">
+				<label for="price">价格</label> <input type="password"
+					class="form-control" id="price" placeholder="出版社">
 			</div>
-
+			
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputTrueName">姓名</label> <input type="text"
-					class="form-control" id="inputTrueName" placeholder="姓名">
+				<label for="publishTime">出版时间</label> <input type="password"
+					class="form-control" id="publishTime" placeholder="出版时间">
 			</div>
-
+			
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputSex">性别</label> <input type="text"
-					class="form-control" id="inputSex" placeholder="性别">
+				<label for="author">作者</label> <input type="password"
+					class="form-control" id="author" placeholder="作者">
 			</div>
-
+			
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputAddress">地址</label> <input type="text"
-					class="form-control" id="inputAddress" placeholder="地址">
+				<label for="amount">数量</label> <input type="password"
+					class="form-control" id="amount" placeholder="数量">
 			</div>
-
+			
 			<div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputPhone">手机</label> <input type="text"
-					class="form-control" id="inputPhone" placeholder="手机">
+				<label for="publisher">出版社</label> <input type="password"
+					class="form-control" id="publisher" placeholder="出版社">
 			</div>
-
-			<!-- <div class="form-group col-md-6 col-md-offset-3">
-				<label for="inputFile">上传图片</label> <input type="file"
-					id="inputFile">
-				<p class="help-block">Example block-level help text here.</p>
-			</div> -->
-
-			<!-- <div class="checkbox col-md-6 col-md-offset-3">
-				<label> <input type="checkbox"> Check me out
-				</label>
-			</div> -->
-
+			
+			<div class="form-group col-md-6 col-md-offset-3">
+				<label for="picture">上传图片</label> <input type="file"
+					id="picture">
+			</div>
+			
 			<button type="submit"
-				class="btn btn-success col-md-6 col-md-offset-3">注册</button>
+				class="btn btn-success col-md-6 col-md-offset-3">提交</button>
 		</form>
 	</div>
 
